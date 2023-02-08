@@ -1,0 +1,352 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: white;
+      font-family: 'Inter';
+    font-style: normal;
+    }
+ 
+a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #475467;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    background-color: #F4F5F7;
+    color: #475467;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    border-bottom: 2px solid white;
+  }
+  
+  .nav-links a {
+    color: #475467;
+  }
+  
+  /* LOGO */
+  
+  .logo {
+    font-size: 32px;
+    display: none;
+    font-family: cursive;
+  }
+  .logo {
+    font-size: 32px;
+  }
+  /* NAVBAR MENU */
+  
+  #inner{
+    font-size: 32px;
+    font-family: cursive;
+  }
+  #inner:hover{
+    background-color: #F4F5F7;
+  }
+  #gone{
+    display: none;
+  }
+  .menu {
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+    float: left;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li:hover {
+    background-color: white;
+  
+    border-radius: 5px;
+  
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+    #top-btn{
+      display: flex;
+      float: right;
+      gap: 4px;
+  
+    }
+    #btn2{
+      color: white;
+      background: #7F56D9;
+      border: 1px solid #7F56D9;
+      box-shadow: 0px 1px 2px rgba(250, 250, 251, 0.05);
+      border-radius: 8px;
+      height: 30px;
+      width: 80px;
+    }
+    #btn1{
+      color: #475467;
+      background: #F4F5F7;
+      border: 1px solid #F4F5F7;
+      box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      height: 30px;
+      width: 80px;
+      margin-right: 10px;
+    }
+  
+  /*HAMBURGER MENU*/
+  
+  .hamburger {
+    display: none;
+  
+    font-size: 24px;
+  
+    user-select: none;
+  }
+  #top-btn{
+      float: right;
+      right: 0;
+      float: inline-end;
+  }
+/* footer part */
+#footer{
+    display: flex;
+    background-color: white;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .logo1 {
+    font-size: 32px;
+    color: #101828;
+    font-family: cursive;
+    padding: 0 30px 0 30px;
+  }
+  #ft{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  text-align: center;
+  padding: 0 30px 0 30px;
+  }
+
+  hr{
+    border: 2px solid #F4F5F7;
+    margin: 10px 30px 10px 30px;
+  }
+  #gapp{
+    height: 60px;
+  }
+
+  #containment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+  }
+  .form-control{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 700px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.form-control1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 700px;
+    height: 300px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+#cats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 700px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+#t-head{
+    height: 20px;
+    margin-bottom: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px; 
+    color: #344054;
+    
+}
+
+  #so{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  #sub-btn{
+    color: white;
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px rgba(250, 250, 251, 0.05);
+    border-radius: 8px;
+    height: 44px;
+    width: 280px;
+  }
+  @media (max-width: 750px) {
+    li{
+        width: 100%;
+    }
+  
+    .nav-links a{
+      color: black;
+    }
+    .menu {
+      display: none;
+      position: absolute;
+      background-color: #F4F5F7;
+      color: white;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+      margin: 0;
+      z-index: 2;
+      border-bottom: 2px solid white;
+    }
+  
+    .logo{
+      display: contents;
+      z-index: 3;
+    }
+    #gone{
+      display: contents;
+      margin: 20px;
+    }
+    #inner{
+      display: none;
+    }
+    .menu li:hover {
+      display: inline-block;
+      background-color: white;
+      transition: 0.3s ease;
+    }
+  
+    .menu li + li {
+      margin-top: 4px;
+    }
+  
+    input[type="checkbox"]:checked ~ .menu {
+      display: block;
+    }
+    .hamburger {
+      display: block;
+      right: 0px;
+    }
+    #top-btn{
+      display: none;
+    }
+  
+    #main_display{
+      flex-direction: column;
+    }
+  
+    .left{
+      width: auto;
+    }
+    #footer{
+      flex-direction: column;
+    }
+    .content{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .actions{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 15px;
+    }
+    .btn-1{
+      width: 70%;
+    }
+    .btn-2{
+      width: 70%;
+    }
+
+    .form-control{
+        gap: 8px;
+        width: 500px;
+        height: 44px;
+    }
+    .form-control1{
+
+        width: 500px;
+        height: 220px;
+    }
+
+    #cats{
+        width: 500px;
+    }
+  }
+
+  @media  (max-width:600px) {
+    .form-control{
+        gap: 8px;
+        width: 360px;
+        height: 44px;
+    }
+    .form-control1{
+
+        width: 360px;
+        height: 220px;
+    }
+
+    #cats{
+        width: 360px;
+    }
+  }
